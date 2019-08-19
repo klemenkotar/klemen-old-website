@@ -65,18 +65,10 @@ const Home = () => (
         flex-direction: row;
         justify-content: space-around;
       }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
       .read-more {
         text-align: center;
         text-transform: uppercase;
-        padding: 30px;
+        padding: 50px;
       }
       a {
         color: white;
@@ -100,9 +92,9 @@ const Home = () => (
         background: linear-gradient(11deg, #2fb290, #552fb2, #d41abc, #ecdd00);
         background-size: 800% 800%;
 
-        -webkit-animation: AnimationName 19s ease infinite;
-        -moz-animation: AnimationName 19s ease infinite;
-        animation: AnimationName 19s ease infinite;
+        -webkit-animation: AnimationName 10s ease infinite;
+        -moz-animation: AnimationName 10s ease infinite;
+        animation: AnimationName 10s ease infinite;
       }
 
       @-webkit-keyframes AnimationName {

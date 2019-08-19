@@ -12,11 +12,6 @@ const BlogCard = props => (
         </a>
     </Link>
     <style jsx>{`
-        :global(body) {
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-            Helvetica, sans-serif;
-        }
         a {
           color: black;
           text-decoration: none;
@@ -27,6 +22,7 @@ const BlogCard = props => (
             background-color: #fff;
             padding: 12px;
             border-radius: 2%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         img {
             max-height: 100%;

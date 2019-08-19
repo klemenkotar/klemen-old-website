@@ -35,6 +35,7 @@ const Home = () => (
             width: 100%;
         }
         .title {
+            margin-top: 20%;
             text-align: center;
             font-size: 3rem;
         }
